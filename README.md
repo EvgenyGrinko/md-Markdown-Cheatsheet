@@ -20,6 +20,18 @@ CTRL + SHIFT + V - to watch markdown preview in the VS Code
 - Blockquotes: with singular angular bracket (`>`): 
     > Example blockqoute. <br/>Another one
     
+- Colors: could be added with ```style``` attribute:<br/>Example: `<span style="color:rgb(0, 180, 100);">html-webpack-plugin</span>`<br/>
+Result: <span style="color:rgb(0, 180, 100);">html-webpack-plugin</span></br>
+
+- Highlight text by wrapping it with backticks (\`\`)<br/>Example: `any text`<br/>
+- Code snippets: Format: \`\`\`language code \`\`\`<br/>
+Example:<br/> \`\`\`js <br/>const date = new Date('2021-02-13T09:22:37.713Z');<br/> console.log(date.getFullYear());<br/>\`\`\`<br/>
+Result: </br>
+```js
+const date = new Date('2021-02-13T09:22:37.713Z');
+console.log(date.getFullYear());
+```
+>Note: always add a line break before and after lines of code</br>
 - Images: Format: `![Alt Text](url)`. <br/>Example: `![GitHub Logo](/images/logo.png)`
 ![Random Logo](/images/test-logo.png)
 
